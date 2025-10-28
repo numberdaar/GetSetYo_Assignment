@@ -113,7 +113,7 @@ export default function FilterableList() {
       </div>
 
       <div className="row" style={{justifyContent:'space-between'}}>
-        <div className="help">URL synced → shareable link retains filters.</div>
+        {/* <div className="help">URL synced → shareable link retains filters.</div> */}
         <div className="badge">{filtered.length} / {products.length} shown</div>
       </div>
 

@@ -15,12 +15,12 @@ export default function App() {
       </section>
 
       <section className="card">
-        <h2>PostList (uses useFetch with httpbin delay)</h2>
+        <h2>PostList</h2>
         <PostList />
       </section>
 
       <section className="card">
-        <h2>Paginated List (Mock API + Load More)</h2>
+        <h2>Paginated List</h2>
         <PaginatedList />
       </section>
     </div>
